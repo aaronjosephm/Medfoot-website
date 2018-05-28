@@ -57,7 +57,7 @@ a:hover {
   opacity: 0.9;
   padding: 0px;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 1px black;
   font-family: 'Roboto', sans-serif;
 }
 #banner h1 {
@@ -93,11 +93,13 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 302;
+    margin: 50px
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: gray;
 }
 
 /* Add some padding inside the card container */
