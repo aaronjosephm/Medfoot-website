@@ -1,0 +1,126 @@
+/* style.css */
+body{
+  background: rgb(190,190,190);
+  color: black;
+  text-decoration-color: rgb(150, 150, 150);
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-family: Courier;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.avatar {
+    align-content: left;
+    width: 75px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  justify-content: space-between;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/feet.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  padding: 0px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-family: 'Roboto', sans-serif;
+}
+#banner h1 {
+  color: white;
+  line-height: 200px;
+  font-size: 50px;
+  font-family: 'Courier', sans-serif;
+}
+#banner p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#footer{
+  text-align: left;
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 302;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.card h2 {
+  font-family: Courier;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.nav {
+  color: black;
+}
+
+.nav:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#navigate:hover {
+  color: blue;
+}
