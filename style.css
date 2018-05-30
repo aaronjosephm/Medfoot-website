@@ -1,4 +1,6 @@
 /* style.css */
+@import url("components/badge.css");
+
 body{
   background: rgb(190,190,190);
   color: black;
@@ -15,9 +17,15 @@ h1{
 }
 h2 {
   font-family: Courier;
-  color: black;
+  color: white;
   font-weight: lighter;
   font-size: 20px;
+}
+
+h4 {
+  color: white;
+  opacity: 0.9;
+
 }
 a {
   color: yellow;
@@ -28,49 +36,92 @@ a:hover {
 }
 
 .avatar {
+    box-shadow: 1px 1px 1px black;
     align-content: left;
     width: 75px;
     height: 100px;
     border-radius: 50%;
+    margin-right: 300px;
 }
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   
 }
 
 .flex-container > div {
-  width: 100px;
+  width: 400px;
   margin: 10px;
   text-align: center;
-  justify-content: space-between;
+  opacity: 1.0;
+  justify-content: left;
   line-height: 50px;
   font-size: 30px;
 }
 
-#banner{
+.flex-container h3 {
+  font-family: 'Arial Black', sans-serif;
+  text-decoration: underline;
+  font-size: 25px;
+  color: white;
+  vertical-align: center
+}
+
+.flex-container ul {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  align-content: right;
+  padding-left: 150px;
+  opacity: 0.8
+}
+
+.banner{
+  position: relative;
+  background: linear-gradient(to right, #33ccff 0%, #0033cc 100%);
+  box-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+#bg {
+  width: 100px;
   text-align: center;
-  background-image: url("images/feet.jpg");
+  position: absolute;
   background-size: cover;
   background-position: center;
-  opacity: 0.9;
   padding: 0px;
   color: white;
   text-shadow: 1px 1px 1px black;
   font-family: 'Roboto', sans-serif;
 }
-#banner h1 {
+.banner h1 {
   color: white;
   line-height: 200px;
+  opacity: 1.0;
   font-size: 50px;
-  font-family: 'Courier', sans-serif;
+  font-family: 'Arial Black', sans-serif;
+  text-decoration: underline;
 }
-#banner p {
+.banner p {
   color: white;
   font-size: 30px;
   font-weight: lighter;
   font-family: 'Helvetica', sans-serif;
+}
+
+#botban {
+  align-content: left;
+  
+  box-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  background: linear-gradient(to right, gray 0%, black 100%);
 }
 
 #footer{
@@ -86,6 +137,14 @@ a:hover {
 }
 #footer a:hover {
   color: white;
+}
+
+#links a {
+  color: white;
+  font-size: 30px;
+}
+#links a:hover {
+  color: gray;
 }
 
 .card {
@@ -125,4 +184,17 @@ a:hover {
 
 #navigate:hover {
   color: blue;
+}
+
+#botfooter {
+  background-color: cyan;
+  padding: 30px;
+}
+
+label {
+  text-shadow: 1px 1px 1px black;
+  font-family: Times;
+  color: #56CCF2;
+  align-content: left;
+  margin-right: 100px
 }
